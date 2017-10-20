@@ -1,4 +1,4 @@
----
+****---
 title: "What is an Ethereum account?"
 author: "Gaël Blanchemain"
 date: "July 28, 2017"
@@ -10,7 +10,7 @@ export_on_save:
 #### tl;dr
 
 Accounts are simple public/private keypairs, which you use to sign transactions.
-There are two types of accounts: [externally owned accounts](#Externally-owned-accounts) (EOAs) and [contract-accounts](#contract-accounts).
+There are two types of accounts: externally owned accounts (EOAs) and [contract-accounts](#contract-accounts).
 
 ### Detailed explanation
 
