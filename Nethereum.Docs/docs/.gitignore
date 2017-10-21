@@ -1,0 +1,6 @@
+#WARNING: document isn't included in any toctree
+
+_build
+_static
+_templates
+

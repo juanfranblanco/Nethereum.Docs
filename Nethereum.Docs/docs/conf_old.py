@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # Nethereum Documentation documentation build configuration file, created by
-# sphinx-quickstart on Sat Oct 21 14:18:08 2017.
+# sphinx-quickstart on Sat Oct 21 08:29:52 2017.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -16,9 +16,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- General configuration ------------------------------------------------
