@@ -36,7 +36,7 @@ default the RPC client, or an IClient which can be an IPC Client, or
 custom RPC Client.
 
 The parameterless constructor uses the defaults address
-"http://localhost:8545/", which is the default port and used by the
+"\http://localhost:8545/", which is the default port and used by the
 ethereum clients to accept RPC requests.
 
 Parameterless constructor
@@ -44,7 +44,7 @@ Parameterless constructor
 
 .. code:: csharp
 
-        var web3 = new Nethereum.Web3.Web3();
+       >>> var web3 = new Nethereum.Web3.Web3();
 
 Url constructor
 ~~~~~~~~~~~~~~~

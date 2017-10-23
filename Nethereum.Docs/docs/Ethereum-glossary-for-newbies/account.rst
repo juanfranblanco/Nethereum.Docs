@@ -1,4 +1,4 @@
-\*\*\*\*--- title: "What is an Ethereum account?" author: "Gaël
+v\*\*\*\*--- title: "What is an Ethereum account?" author: "Gaël
 Blanchemain" date: "July 28, 2017" export\_on\_save: markdown: true ---
 ## What is an Ethereum account?
 

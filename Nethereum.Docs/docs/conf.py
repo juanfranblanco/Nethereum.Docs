@@ -169,3 +169,24 @@ texinfo_documents = [
 
 
 
+#Adds  copybutton option
+import os, sys
+###########################ADDON############################
+try:
+    import easydev
+    from easydev import get_path_sphinx_themes
+except Exception, e:
+    print "Install easydev or set your PYTHONPATH properly"
+    raise Exception
+
+
+extensions.append('easydev.copybutton')
+jscopybutton_path = easydev.copybutton.get_copybutton_path()
+
+if os.path.isdir('_static')==False:
+    os.mkdir('_static')
+
+import shutil
+shutil.copy(jscopybutton_path, '_static')
+
+html_static_path = ['_static']
