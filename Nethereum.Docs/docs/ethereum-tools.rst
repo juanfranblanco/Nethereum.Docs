@@ -23,7 +23,7 @@ we decided to provide a non-comprehensive list.
     "Embark", "JavaScript", "https://github.com/iurimatias/embark-framework", "Framework for serverless Decentralized Applications using Ethereum, IPFS and other platforms"
     "Ether.Camp", "JavaScript", "http://www.ether.camp/", "IDE for Ethereum development"
     "Nethereum", "C#", "https://github.com/Nethereum/Nethereum", "Nethereum is the .Net integration library for Ethereum, it allows you to interact with Ethereum clients like geth, eth or parity using RPC"
-    "Etherscan", "N/A", "https://etherscan.io/", "Ethereum BlockChain Explorer, API and Analytics Platform"
+    "Etherscan", "", "https://etherscan.io/", "Ethereum BlockChain Explorer, API and Analytics Platform"
     "Vs code - Solidity plugin", "Solidity", "https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity", "Linting, auto-completion and compilation tool for Solidity development"
     "Dapp", "Solidity", https://dapp.readthedocs.io/en/latest/"
     "Rinkeby", "N/A", "https://www.rinkeby.io/", "Testnet"
