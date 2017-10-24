@@ -11,11 +11,11 @@ Welcome to Nethereum Documentation's documentation!
    :caption: Contents:
 
    ethereum
+   introduction
    glossary
-   contracts/*
+   Ethereum-glossary-for-newbies
+   contracts
    demos
-   ethereum
-   ethereum-terminology
    ethereum-tools
    glossary
    index_nethereum
@@ -26,9 +26,7 @@ Welcome to Nethereum Documentation's documentation!
    nethereum-methods
    unity-nethereum
    client-libraries
-   Ethereum-glossary-for-newbies/*
    examples
-   introduction
 
 Indices and tables
 ==================
