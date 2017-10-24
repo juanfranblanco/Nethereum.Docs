@@ -2,8 +2,8 @@ Ethereum Tools
 =================
 
 
-There are dozens of tools for Ethereum developers but they are hard to find, so
-we decided to provide a non-comprehensive list 
+There are dozens of tools for Ethereum developers but they're hard to find, so
+we decided to provide a non-comprehensive list.
 
 .. csv-table:: Ethereum Tools
    :header: "Name", "Language", "URL", "Description"
@@ -26,3 +26,13 @@ we decided to provide a non-comprehensive list
     "Etherscan", "N/A", "https://etherscan.io/", "Ethereum BlockChain Explorer, API and Analytics Platform"
     "Vs code - Solidity plugin", "Solidity", "https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity", "Linting, auto-completion and compilation tool for Solidity development"
     "Dapp", "Solidity", https://dapp.readthedocs.io/en/latest/"
+    "Rinkeby", "N/A", "https://www.rinkeby.io/", "Testnet"
+    "Kovan", "N/A", "https://kovan.etherscan.io/", "Testnet"
+    "Ethgasstation", "N/A", "http://ethgasstation.info/", "Dashboard for miners to keep track of networks data"
+    "Remix / Browser Solidity","Solidity", "https://ethereum.github.io/browser-solidity", "Online IDE for Ethereum blockchain development"
+    "Truffle","Solidity/JavaScript "http://truffleframework.com/boxes", "Ethereum Development Framework"
+    "Manuel Araoz Github repo", "Python, JavaScript", "https://github.com/maraoz", "A personal github repo loaded with good Solidity"
+    "LLL", "LLL",  "LLL, or Lisp Like Language is another language used to interact with Ethereum"
+    "INFURA", "N/A", "https://www.infura.io", "Infrastructure of Ethereum and IPFS nodes, allows to interact with Ethereum without running a node"
+    "IPFS", N/A", "https://ipfs.io","Decentralized storage protocol"
+    "SWARM","https://github.com/ethersphere/swarm", "Decentralized storage protocol"
