@@ -57,7 +57,7 @@ the actual author of the message.
 #### Scenario \#4:
 
 Using hash functions in combination with [cryptographic
-keys](/docs/Ethereum-glossary-for-newbies/public-private-key.md) anyone
+keys](Ethereum-glossary-for-newbies/public-private-key.md) anyone
 can prove that they own a piece of data without disclosing the data
 itself. Indirectly, it proves: That the owner of the data knows their
 password. to prove you previously wrote a message rest assured the

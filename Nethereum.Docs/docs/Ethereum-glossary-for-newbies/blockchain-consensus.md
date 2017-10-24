@@ -22,16 +22,16 @@ others. The goal of the "proofing" work is to make it costly and
 difficult to add false transactions/spam to a block.
 
 Proofing processes make it hard for
-[miners](/docs/Ethereum-glossary-for-newbies/mining.md/) to submit a
+[miners](../Ethereum-glossary-for-newbies/mining.md/) to submit a
 block to the blockchain but easy for all
-[nodes](/docs/Ethereum-glossary-for-newbies/node.md) to verify if the
+[nodes](../Ethereum-glossary-for-newbies/node.md) to verify if the
 new block is valid.
 
 Proof of Work
 -------------
 
 In the context of Ethereum, a ***Proof of Work*** is a cryptographic
-puzzle that [miners](/docs/Ethereum-glossary-for-newbies/mining.md/) try
+puzzle that [miners](../Ethereum-glossary-for-newbies/mining.md/) try
 to solve in order to submit a new block to the blockchain and be
 rewarded Ether. That puzzle is difficult (costly, time-consuming) to
 produce. Producing a proof of work can be a random process with low
@@ -43,7 +43,7 @@ Proof of Stake
 --------------
 
 A ***Proof of Stake*** verifies that a
-[miner](/docs/Ethereum-glossary-for-newbies/mining.md/) has enough Ether
+[miner](../Ethereum-glossary-for-newbies/mining.md/) has enough Ether
 at stake to submit/confirm a new block. Proof of Stake rewards miners
 who submit/confirm a valid block and it punishes those who don't, making
 it insanely costly to tamper with the blockchain's transaction.

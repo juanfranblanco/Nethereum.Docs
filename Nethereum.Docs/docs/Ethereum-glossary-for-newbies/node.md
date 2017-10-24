@@ -5,7 +5,7 @@ tl;dr
 -----
 
 Nodes are the point of entry of your
-[Dapp](/docs/Ethereum-glossary-for-newbies/Dapp.md) to the Ethereum
+[Dapp](Ethereum-glossary-for-newbies/Dapp.md) to the Ethereum
 network, they are the equivalent of a back-end for decentralized
 networks. You can run your own node locally or connect to a remote node.
 

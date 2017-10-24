@@ -26,7 +26,7 @@ Linux
 RPC / IPC options
 -----------------
 
-Check [here](/docs/Ethereum-glossary-for-newbies/RPC-IPC.md) if you
+Check [here](../Ethereum-glossary-for-newbies/RPC-IPC.md) if you
 don't know what IPC / IPC is.
 
 There are several command line options to run geth [which can be found

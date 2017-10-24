@@ -14,11 +14,11 @@ with some workbooks to get to work right away.
 Ethereum Terminology
 --------------------
 
--   [Account](/docs/Ethereum-glossary-for-newbies/account.md)
--   [Ethereum](/docs/Ethereum-glossary-for-newbies/accoun.md)
--   [Account](/docs/Ethereum-glossary-for-newbies/account.md)
--   [Account](/docs/Ethereum-glossary-for-newbies/account.md)
--   [Account](/docs/Ethereum-glossary-for-newbies/account.md)
+-   [Account](Ethereum-glossary-for-newbies/account.md)
+-   [Ethereum](Ethereum-glossary-for-newbies/accoun.md)
+-   [Account](Ethereum-glossary-for-newbies/account.md)
+-   [Account](Ethereum-glossary-for-newbies/account.md)
+-   [Account](Ethereum-glossary-for-newbies/account.md)
 
 Nethereum
 ---------

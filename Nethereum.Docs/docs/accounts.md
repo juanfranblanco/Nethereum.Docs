@@ -6,7 +6,7 @@ The account needs to verify (sign) in order to authenticate the account
 holder of their Ether or the one that intents to interact with a smart
 contract.
 
-Check [here](/docs/Ethereum-glossary-for-newbies/account_.md) to learn
+Check [here](Ethereum-glossary-for-newbies/account_.md) to learn
 what "account" means in Ethereum jargon.
 
 To send a transaction you will either manage your account and sign the
@@ -80,7 +80,7 @@ instantiated with that acccount all the transactions made using the
 TransactionManager, Contract deployment or Functions will signed offline
 using the latest nonce key.
 
-Check [here](/docs/Ethereum-glossary-for-newbies/nonce.md) if you don't
+Check [here](Ethereum-glossary-for-newbies/nonce.md) if you don't
 know what a nonce key is.
 
 For example, in this scenario we are creating an account with the

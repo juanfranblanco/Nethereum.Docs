@@ -2,7 +2,8 @@ What is Ethereum?
 =================
 
 Ethereum is a blockchain-based distributed computing platform featuring
-[smart contract](/docs/Ethereum-glossary-for-newbies/smart-contracts.md)
+[smart contract](Ethereum-glossary-for-newbies/smart-contracts.md)
+
 functionality. It provides a decentralized Turing-complete virtual
 machine, which can execute scripts using an international network of
 public nodes. Ethereum also provides a cryptocurrency token called
@@ -55,10 +56,10 @@ Accounts
 --------
 
 See [What is an Ethereum
-account](/docs/Ethereum-glossary-for-newbies/account.md)
+account](Ethereum-glossary-for-newbies/account.md)
 
 Smart Contracts
 ---------------
 
 See [What is a Smart
-Contract](/docs/Ethereum-glossary-for-newbies/smart-contracts.md)
+Contract](Ethereum-glossary-for-newbies/smart-contracts.md)

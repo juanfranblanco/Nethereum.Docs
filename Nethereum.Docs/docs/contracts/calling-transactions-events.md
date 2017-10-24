@@ -43,7 +43,7 @@ store on the log the original parameter for multiplication "a", the
 address of the "sender" and the "result" of the multiplication. The
 parameter "a" and the "sender" address are both indexed so we can create
 specific filters for those two values using topics. \#\#\#\#\#\#Check
-[here](/docs/Ethereum-glossary-for-newbies/event.md) if you don't know
+[here](Ethereum-glossary-for-newbies/event.md) if you don't know
 what an Event is in Solidity jargon.
 
 Deploying the contract

@@ -5,7 +5,7 @@ tl;dr
 -----
 
 A **Dapp** is a decentralized app: a frontend that communicates with
-[smart-contracts](/docs/Ethereum-glossary-for-newbies/smart-contracts.md).
+[smart-contracts](../Ethereum-glossary-for-newbies/smart-contracts.md).
 &gt;DApp = frontend + smart contracts
 
 Detailed explanation

@@ -5,7 +5,7 @@ tl;dr
 -----
 
 A transaction is a message that is sent from one
-[account](/docs/Ethereum-glossary-for-newbies/account.md) to another
+[account](Ethereum-glossary-for-newbies/account.md) to another
 account (which might be the same or the special zero-account). It can
 include binary data (its payload) and Ether.
 
@@ -30,7 +30,7 @@ transaction id).
 ### Transactions vs Messages?
 
 In Ethereum transactions and
-[Messages](/docs/Ethereum-glossary-for-newbies/message.md) are
+[Messages](Ethereum-glossary-for-newbies/message.md) are
 different; a "transaction" in Ethereum parlance specifically refers to a
 physical digitally signed piece of data that goes in the blockchain, and
 every transaction triggers an associated message, but messages can also

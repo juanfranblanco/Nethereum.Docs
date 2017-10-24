@@ -5,7 +5,7 @@ tl;dr
 -----
 
 Testnets simulate the Ethereum network and
-[EVM](/docs/Ethereum-glossary-for-newbies/EVM.md). They allow developers
+[EVM](Ethereum-glossary-for-newbies/EVM.md). They allow developers
 to upload and interact with smart contracts without paying the cost of
 gas.
 
@@ -29,7 +29,7 @@ lightweight testnets nodes provide good error messages.
 
 Although not a "true Testnet" since it runs locally, Test RPC is ideal
 to start a project, execute
-[transactions](/docs/Ethereum-glossary-for-newbies/transaction.md)
+[transactions](Ethereum-glossary-for-newbies/transaction.md)
 instant response
 
 #### 1. Ropsten

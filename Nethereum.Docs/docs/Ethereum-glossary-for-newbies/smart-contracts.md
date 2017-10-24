@@ -6,7 +6,7 @@ tl;dr
 
 A smart contract is a digitized version of a traditional contract. It
 sits on the blockchain (Ethereum in our case) and contains the business
-logic of a [Dapp](/docs/Ethereum-glossary-for-newbies/Dapp.md).
+logic of a [Dapp](Ethereum-glossary-for-newbies/Dapp.md).
 
 ### Detailed explanation
 

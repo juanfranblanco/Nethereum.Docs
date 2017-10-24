@@ -32,12 +32,12 @@ Externally owned accounts:
     in that these entities are state objects, each of them have a state,
     and the state of all those accounts is the state of the Ethereum
     network which is updated with every block when
-    [consensus](/docs/Ethereum-glossary-for-newbies/blockchain-consensus.md)
+    [consensus](../Ethereum-glossary-for-newbies/blockchain-consensus.md)
     is reached.
 
 Accounts are essential for users to interact with the Ethereum
 blockchain via
-[transactions](/docs/Ethereum-glossary-for-newbies/transaction.md).
+[transactions](../Ethereum-glossary-for-newbies/transaction.md).
 
 If we restrict Ethereum to only externally owned accounts and allow only
 transactions between them, we arrive at an “altcoin” system that is less

@@ -15,6 +15,6 @@ on Ethereum.
 ### Detailed explanation
 
 Ethereum addresses are generated using a contract's [public
-key](/Users/gael/Dropbox/dev/NethDocs/Nethereum.Docs/docs/Ethereum-glossary-for-newbies/public-private-key.md),
+key](../Ethereum-glossary-for-newbies/public-private-key.md),
 they represent a contract on Ethereum and are used as the location at
 which you can interact with a contract.

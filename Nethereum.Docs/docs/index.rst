@@ -8,24 +8,27 @@ Welcome to Nethereum Documentation's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:              
-                     
-   ethereum              
-   glossary                            
-   contracts/*                                                            
-   demos                          
-   ethereum-terminology   
-   index_nethereum  
+   :caption: Contents:
+
+   ethereum
+   glossary
+   contracts/*
+   demos
+   ethereum
+   ethereum-terminology
+   ethereum-tools
+   glossary
+   index_nethereum
    nethereum-methods
-   client-libraries   
-   ethereum-and-clients           
-   ethereum-terminology             
-   nethereum-methods  
+   client-libraries
+   ethereum-and-clients
+   ethereum-terminology
+   nethereum-methods
    unity-nethereum
-   client-libraries  
-   Ethereum-glossary-for-newbies/*  
-   examples                  
-   introduction             
+   client-libraries
+   Ethereum-glossary-for-newbies/*
+   examples
+   introduction
 
 Indices and tables
 ==================
