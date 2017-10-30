@@ -1,41 +1,25 @@
 # What is Nethereum ?
 
 Nethereum is the .Net integration library for Ethereum, simplifying the access and smart contract interaction with Ethereum nodes both public or permissioned like Geth, Parity or Quorum.
-Nethereum is an Ethereum platform for .NET developers. Nethereum
 
-combines the new possibilities of blockchain development with the power of the .NET framework. 
-
-Nethereum is developed targetting netstandard 1.1, net451 and also as a portable library, hence it is compatible with all major operating systems (Windows, Linux, MacOS, Android and iOS) and has been tested on cloud, mobile, desktop, xbox, hololens and windows IoT.
+Nethereum is developed targetting netstandard 1.1, net451 and also as a portable library, hence it is compatible with all the operating systems (Windows, Linux, MacOS, Android and OSX) and has been tested on cloud, mobile, desktop, xbox, hololens and windows IoT.
 
 ## Features
 
 * JSON RPC / IPC Ethereum core methods
-* Parity managment api (WIP)
 * Geth management api (admin, personal, debugging, miner)
+* Parity managment api (WIP)
 * Quorum
 * Simplified smart contract interaction for deployment, function calling, transaction and event filtering and decoding of topics.
 * ABI to .Net type encoding and decoding, including attribute based for complex object deserialization.
 * Transaction, RLP and message signing, verification and recovery of accounts
-* Libraries for standard Token contracts, ENS and Uport
+* Libraries for standard contracts Token, ENS and Uport
 * Integrated TestRPC testing to simplify TDD and BDD (Specflow) development
 * Key storage using Web3 storage standard, compatible with Geth and Parity.
 * Simplified account lifecycle for both managed by third party client (personal) or stand alone (signed transactions)
 * Low level Interception of RPC calls.
 * Code generation of smart contracts services.
 
-| Feature | Description |
-| -------- | ----------- |
-| Geth      | Geth management api (admin, personal, debugging, miner) |
-| Parity  | Parity managment api (WIP) |
-| Smart Contract | Simplified smart contract interaction for deployment, function calling, transaction and event filtering and decoding of topics |
-| Token contracts | Support libraries |
-| ENS | Support libraries |
-| Uport | Support libraries |
-| INFURA      | Built in methods to interact with INFURA's Infrastructure of IPFS and Ethereum nodes |
-| JSON RPC / IPC  | Ethereum core methods |
-| Metamask    | extension to be used for dest files |
-| Parity      | path to data files to supply the data that will be passed into Kvtemplates. |
-| testrpc  | engine to be used for processing templates. Handlebars is the default. |
 
 ## Quick installation
 
@@ -94,4 +78,5 @@ PM > Install-Package Nethereum.Web3 -Pre
 
 
 Note: Named Pipe Windows is the only IPC api supported, this can only be used in combination with Nethereum.Web3 - Nethereum.RPC packages. Not the Nethereum.Portable package.
+
 
