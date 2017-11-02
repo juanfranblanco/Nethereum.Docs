@@ -1,18 +1,20 @@
 
 # Nethereum features
 
+The following table lists the various OSes, platforms and blockchains you can reach with Nethereum.
 
-| Platform | Description |
-| -------- | ----------- |
-| OSX      | path to data files to supply the data that will be passed into templates. |
-| Windows  | engine to be used for processing templates. Handlebars is the default. |
-| Linux    | extension to be used for dest files. |
-| iOS      | path to data files to supply the data that will be passed into Kvtemplates. |
-| Android  | engine to be used for processing templates. Handlebars is the default. |
-| Windows Phone  | extension to be used for dest files. |
-| Hololens   | path to data files to supply the data that will be passed into templates. |
-| VR  | engine to be used for processing templates. Handlebars is the default. |
-| Quorum    | extension to be used for dest files. |
+| Platform | Platform description | Integration with Nethereum |
+| -------- | ----------- | ---------------- |
+| OSX      | ?????????????? |
+| Windows  | ?????????????? |
+| Linux    | ?????????????? |
+| Unity    | And by extension, most gaming consoles |
+| iOS      | ?????????????? |
+| Android  | ?????????????? |
+| Windows Phone  | ?????????????? |
+| Hololens   | ?????????????? |
+| VR  | ???????? |
+| Quorum    | Permission blockains based on Ethereum |
 | Azure      | Blockchain as a service integration. |
 
 Nethereum integrates most tools in the Ethereum ecosystem:
@@ -21,10 +23,9 @@ Nethereum integrates most tools in the Ethereum ecosystem:
 | -------- | ----------- |
 | Geth      | Main Ethereum client |
 | INFURA      | Infrastructure of IPFS and Ethereum nodes |
-| Parity  | engine to be used for processing templates. Handlebars is the default. |
-| Metamask    | extension to be used for dest files. |
-| Parity      | path to data files to supply the data that will be passed into Kvtemplates. |
-| testrpc  | engine to be used for processing templates. Handlebars is the default. |
+| Parity  | Rust-based Ethereum client |
+| Metamask    | In-browser wallet |
+| testrpc  | Most used testnet |
 
 Now something about the cloud, gaming consoles, hololens, VR etc :smile:. 
 
