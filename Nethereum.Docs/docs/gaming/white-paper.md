@@ -24,13 +24,25 @@ The current digital gaming landscape is dominated by competitors offering access
 - short game shelf life
 - no revenue in case of clone-game
 - 
+### Licensing
+- Games remixing / clones
+- Game characters
+- Storyline
+- Artwork / Assets / Music
+
+### Preventing piracy
+- Validators aprove the inclusion of games
+- Validators will be both stakers, creators and gamers based on stake and reputation.
+
+### Creators reputation and collaboration
 
 ## Gaming universal currency
 
 ## Incentivization
-
-
-
++ Reputation of gamers and creators
++ Game rewards
++ Proof of Play, payment pool rewards (random).
++ Token rewards to join a 
 ## Gamers persistency
 Keeping the same persona across games
 Must pay to prevent cheating
@@ -39,6 +51,9 @@ Must pay to prevent cheating
 - Plasma enabled payment
 - Micro-Payments
 - Time-based payments
+
+Note: Payment pools, stake on chain, multi-signature, fees. 
+
 
 ## NOT a new appstore
 
