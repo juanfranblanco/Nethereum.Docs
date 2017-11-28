@@ -7,15 +7,37 @@ juan.blanco@consensys.net
 
 ## Introduction
 
-Online gaming currently relies on siloed gaming platforms serving as trusted third parties to process electronic payments and transactions between players. While the system works well enough within proprietary gaming networks, it still suffers from the inherent limitations of the customer lock-in based model: hardware manufacturers centralize payments and gamers data, effectively sealing participants in a closed-world. These enclosed "game economies" won't allow players to accrue reputation, trade items or simply interact across gaming platforms. Meanwhile, the dominant actors' siloed model hinders opportunities such as micro-payment or pay per-minute because of its reliance on traditional fiat payment systems.
+Gaming currently relies on platforms serving as trusted third parties that process electronic payments, players data and transactions between players. While the system works well enough within each gaming network, it still suffers from the inherent limitations of digital enclaves: payments systems and gamers' data are not compatible across networks. This prevents players from accruing reputation, trading items and managing the same persona across platforms. Another area of improvement is subscription models which would greatly benefit from decentralized payments. Enabling transparent micro-payment or pay per-minute is therefore another goal of this project.
 
-What is needed is an Ethereum-based decentralized platform connecting every gaming network to one single fabric. This would enable interactions across network that wouldn't require validation from any third party.
+To solve the issues we just mentioned, what is needed is an Ethereum-based decentralized platform connecting every gaming network to one single fabric. This would enable transactions transparency and data persistence acro
+ss networks.
 
-NOTE, the above needs to be rephrased: There is not an issue with FIAT payments, but as we move to subscription models it can be done better, working across hardware and distributors. The decentralisation of some of the payments (could be partial), would allow for better transparency.
+<!-- NOTE, the above needs to be rephrased: There is not an issue with FIAT payments, but as we move to subscription models it can be done better, working across hardware and distributors. The decentralization of some of the payments (could be partial), would allow for better transparency.
 
-Also reputation, storage of game play, etc can be decoupled from the hardware OR sofware creator / provider.
+Also reputation, storage of game play, etc can be decoupled from the hardware OR software creator / provider. -->
 
-Simple version, is What if you could play the same game across different hardware devices, pay as you go, or partially. What if your game progress, reputation, trophies, recorded game play was stored decentralised, so it won't be lost in case of any company dissappearing. What if as a creator you could easily monetise on remixes of your game, and encourage them. What if as a creator you could still get revenue from a game when it has been included in emulators. What if you could "mine" rewards through pooling of payments. What if you could have a network that prevents piracy and encourages payments and collaboration between creators and gamers.
+## A Possible Future for Gaming 
+
+
+Creating a universal gaming network unlocks a slew of needed features:
+
+For gamers:
+
+- Playing the same game across different hardware devices
+- Paying as you go, or paying partially
+- Owning personal gaming data such as: progress, reputation, trophies, recorded game play
+- Capitalizing on gaming assets that are stored in a decentralized manner, therefore more resilient to hacks and hosting companies going bankrupt
+
+For editors and distributors:
+
+- Easily monetize on remixes of your games via revenue sharing
+- Perceive income from games that have been ported to emulators
+- Offer rewards to your fan-base through mined pooling of payments
+
+While that vision of a unified gaming experience would propel the industry to a new stage, it is very achievable thanks to blockchain technology.
+
+
+<!-- Simple version, is What if you could play the same game across different hardware devices, pay as you go, or partially. What if your game progress, reputation, trophies, recorded game play was stored decentralised, so it won't be lost in case of any company dissappearing. What if as a creator you could easily monetise on remixes of your game, and encourage them. What if as a creator you could still get revenue from a game when it has been included in emulators. What if you could "mine" rewards through pooling of payments. What if you could have a network that prevents piracy and encourages payments and collaboration between creators and gamers. -->
 
 ## Problem
 
