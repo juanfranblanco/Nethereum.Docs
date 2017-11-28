@@ -11,6 +11,12 @@ Online gaming currently relies on siloed gaming platforms serving as trusted thi
 
 What is needed is an Ethereum-based decentralized platform connecting every gaming network to one single fabric. This would enable interactions across network that wouldn't require validation from any third party.
 
+NOTE, the above needs to be rephrased: There is not an issue with FIAT payments, but as we move to subscription models it can be done better, working across hardware and distributors. The decentralisation of some of the payments (could be partial), would allow for better transparency.
+
+Also reputation, storage of game play, etc can be decoupled from the hardware OR sofware creator / provider.
+
+Simple version, is What if you could play the same game across different hardware devices, pay as you go, or partially. What if your game progress, reputation, trophies, recorded game play was stored decentralised, so it won't be lost in case of any company dissappearing. What if as a creator you could easily monetise on remixes of your game, and encourage them. What if as a creator you could still get revenue from a game when it has been included in emulators. What if you could "mine" rewards through pooling of payments. What if you could have a network that prevents piracy and encourages payments and collaboration between creators and gamers.
+
 ## Problem
 
 ### The issue with siloed gaming platforms
@@ -23,7 +29,8 @@ The current digital gaming landscape is dominated by competitors offering access
 ## The editors' side: 
 - short game shelf life
 - no revenue in case of clone-game
-- 
+- emulation
+
 ### Licensing
 - Games remixing / clones
 - Game characters
