@@ -8,7 +8,7 @@ export_on_save:
 ##  What is a cryptographic hash function?
 
 ####  tl;dr
-Cryptographic hash function take an input and convert it into a cyphered output.
+Cryptographic hash functions take an input and convert it into a cyphered output.
 
 ```mermaid
 graph LR
@@ -34,13 +34,16 @@ BCDEF-->|Hash Function|d74fe0b3aa33802598d68a69bee355e7
 3. it is practically impossible to find two different messages with the same hash
 
 ####  What are hash functions used for?
+
 Here are various scenarios involving hash functions:
 
 ##### Scenario #1:
+
 Bob wants to send Alice a message, but he needs to make sure only Alice can read it.
 To do that
 
 ##### Scenario #2:
+
 Bob wants to send Alice a message, but Alice needs to make sure Bob is the actual author of the message.
 
 ##### Scenario #3:
@@ -59,6 +62,7 @@ index your messages
 Ethereum uses Keccak-256and  Keccak-512.
 
 It is possible to index content by its hash, in essence creating a hashtable. If you have used IPFS or BitTorrent's magnet links, among others, then you already used a hashtable.
+
 ```mermaid
 %% Example diagram
 graph LR

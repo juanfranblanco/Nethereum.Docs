@@ -13,13 +13,13 @@ Events are functions that store a change on a log, they are often used to trigge
 
 In the example below, an event called 'Multiplied' is first declared (line 18) then assigned (line 26);
 ```javascript
-15	 contract test {
-16
-17	    int _multiplier;
-18	    event Multiplied(int indexed a, address indexed sender, int result );
+1	 contract test {
+2
+3	    int _multiplier;
+4	    event Multiplied(int indexed a, address indexed sender, int result );
 …
-26	       Multiplied(a, msg.sender, r);
-27	       return r;
-28	    }
-29	 }
+5	       Multiplied(a, msg.sender, r);
+6	       return r;
+7	    }
+8	 }
 ```
