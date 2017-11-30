@@ -53,8 +53,6 @@ This means players can't port their scores and digital assets across platforms. 
 
 UGP will offer an account management representing all gamers assets, scores and reputation. That data will be cryptographically secure and store in a decentralized way, thus making players personas persistent across networks.
 
-### Duplicate persona's across platforms
-
 ## On the editors' side:
 
 ### Short game shelf life
@@ -98,10 +96,21 @@ Those  -->
 
 ## Incentivization
 
-+ Reputation of gamers and creators
-+ Game rewards
-+ Proof of Play, payment pool rewards (random).
-+ Token rewards to join a
+#### Reputation of gamers and creators
+
+UGP will be used by gamers and studios to accrue a cross-platform reputation, making their exploits permanently accessible and in the blockchain.
+
+#### Game rewards
+
+NOTE: care to elaborate? I can't tell the difference between "payment pool rewards" and game rewards.
+
+#### Proof of Play, payment pool rewards (random)
+
+UGP will enable features such as Proof of Play, putting to use Ethereum consensus mechanics to write gamers sessions on the blockchain.
+
+#### Token rewards to join a
+
+NOTE: can you finish the sentence?
 
 ## Gamers persistency
 
@@ -120,9 +129,6 @@ Note: Payment pools, stake on chain, multi-signature, fees.
 ## Architecture
 
 ![representation](../diagrams/UGP_Overview.pdf)
-
-## NOT a new appstore
-
 
 ## Conclusion
 
