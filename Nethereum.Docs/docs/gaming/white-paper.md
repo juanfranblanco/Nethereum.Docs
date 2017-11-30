@@ -51,13 +51,13 @@ This section provides further explanation on what issues a Decentralized Gaming 
 
 This means players can't port their scores and digital assets across platforms. Their reputation is also fragmented and vulnerable to any change occurring in the siloed platform it depends on.
 
-UGP will offer an account management representing all gamers assets, scores and reputation. That data will be cryptographically secure and store in a decentralized way, thus making players personas persistent across networks.
+UGN will offer an account management representing all gamers assets, scores and reputation. That data will be cryptographically secure and store in a decentralized way, thus making players personas persistent across networks.
 
 ## On the editors' side:
 
 ### Short game shelf life
 
-The average profitability of a video game doesn't extend past a few years. The second stage of their life occurs when they have been ported to emulators. Yet their fanbase remains and would be happy to keep playing the game, [organizing tournaments](http://mashable.com/2017/04/04/underground-street-fighter-tournament/#BJc0SXHnlgq7) around their favorite titles and even supporting updates with small contributions. UGP will make those possible for the editor.
+The average profitability of a video game doesn't extend past a few years. The second stage of their life occurs when they have been ported to emulators. Yet their fan base remains and would be happy to keep playing the game, [organizing tournaments](http://mashable.com/2017/04/04/underground-street-fighter-tournament/#BJc0SXHnlgq7) around their favorite titles and even supporting updates with small contributions. UGN will make those possible for the editor.
 
 ### No revenue in case a clone-game is created
 
@@ -65,7 +65,7 @@ Another common situation is the creation of "clones", that imitate the style of 
 
 ### Licensing
 
-Creating a UGP allows very flexible licensing models based on Smart Contracts, the IP of each game can hence be broken down and monetized:
+Creating a UGN allows very flexible licensing models based on Smart Contracts, the IP of each game can hence be broken down and monetized:
 
 - Game characters
 - Storylines
@@ -86,11 +86,11 @@ NOTE: can you elaborate on this?
 
 ## Gaming universal currency
 
-UGP will provide an Ethereum-based token that will be the basis for the ecosystem's economy.
+UGN will provide an Ethereum-based token that will be the basis for the ecosystem's economy.
 
 NOTE: did you think about specifics regarding the currency?
 <!-- Decentralized currencies such as Bitcoin already proved they could transform the field of monetary transactions. Sending money over the blockchain is now nearly as immediate as sending an email.
-Because UGP relies on the Ethereum blockchain, it inherits Ethereum's properties and intends to provide features based on plasma as well.
+Because UGN relies on the Ethereum blockchain, it inherits Ethereum's properties and intends to provide features based on plasma as well.
 
 Those  -->
 
@@ -98,7 +98,7 @@ Those  -->
 
 #### Reputation of gamers and creators
 
-UGP will be used by gamers and studios to accrue a cross-platform reputation, making their exploits permanently accessible and in the blockchain.
+UGN will be used by gamers and studios to accrue a cross-platform reputation, making their exploits permanently accessible and in the blockchain.
 
 #### Game rewards
 
@@ -106,7 +106,7 @@ NOTE: care to elaborate? I can't tell the difference between "payment pool rewar
 
 #### Proof of Play, payment pool rewards (random)
 
-UGP will enable features such as Proof of Play, putting to use Ethereum consensus mechanics to write gamers sessions on the blockchain.
+UGN will enable features such as Proof of Play, putting to use Ethereum consensus mechanics to write gamers sessions on the blockchain.
 
 #### Token rewards to join a
 
@@ -128,7 +128,7 @@ Note: Payment pools, stake on chain, multi-signature, fees.
 
 ## Architecture
 
-![representation](../diagrams/UGP_Overview.pdf)
+![representation](../diagrams/UGN_Overview.pdf)
 
 ## Conclusion
 
