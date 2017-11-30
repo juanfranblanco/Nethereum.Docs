@@ -134,4 +134,4 @@ Note: Payment pools, stake on chain, multi-signature, fees.
 
 
 ## References
-[1] Global Trade Report, US International Trade Administration https://www.trade.gov/topmarkets/pdf/Media_and_Entertainment_Top_Markets_Report.pdf, 2016.  
+[1] Global Trade Report, US International Trade Administration, 2016 https://www.trade.gov/topmarkets/pdf/Media_and_Entertainment_Top_Markets_Report.pdf  
