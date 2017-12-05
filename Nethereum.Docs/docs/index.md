@@ -48,8 +48,8 @@ PM > Install-Package Nethereum.Web3 -Pre
 
 ## Main Libraries
 
-|  Project Source | Nuget_Package |  Description |
-| ------------- |--------------------------|-----------|
+|  Project Source | Nuget_Package | Description |
+| ------------- |----------------|----------|-----------|
 | Nethereum.Portable    | [![NuGet version](https://badge.fury.io/nu/nethereum.portable.svg)](https://badge.fury.io/nu/nethereum.portable)| Portable class library combining all the different libraries in one package |
 | [Nethereum.Web3](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Web3)    | [![NuGet version](https://badge.fury.io/nu/nethereum.web3.svg)](https://badge.fury.io/nu/nethereum.web3)| Ethereum Web3 Class Library simplifying the interaction via RPC includes contract interaction, deployment, transaction, encoding / decoding and event filters |
 | [Nethereum.Geth](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Geth)    | [![NuGet version](https://badge.fury.io/nu/nethereum.geth.svg)](https://badge.fury.io/nu/nethereum.geth)| Nethereum.Geth is the extended Web3 library for Geth. This includes the non-generic RPC API client methods to interact with the Go Ethereum Client (Geth) like Admin, Debug, Miner|
@@ -62,8 +62,7 @@ PM > Install-Package Nethereum.Web3 -Pre
 |  Project Source | Nuget_Package |  Description |
 | ------------- |--------------------------|-----------|
 | [Nethereum.ABI](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.ABI) | [![NuGet version](https://badge.fury.io/nu/nethereum.abi.svg)](https://badge.fury.io/nu/nethereum.abi)| Encoding and decoding of ABI Types, functions, events of Ethereum contracts |
-| [Nethereum.Generator.Console](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Generator.Console) | [![NuGet version](https://badge.fury.io/nu/Nethereum.Generator.Console.svg)](https://badge.fury.io/nu/Nethereum.Generator.Console.abi)| XXXXXXXXXXXXXXXXXXXXXXXXXX |
-| [Nethereum.EVM](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.EVM) | [![NuGet version](https://badge.fury.io/nu/nethereum.EVM.svg)](https://badge.fury.io/nu/nethereum.EVM)|Unity integration EVM XXXXXXXXXXXXXXXXXXXXXXXXXX |
+| [Nethereum.EVM](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.EVM) | -|Unity integration EVM XXXXXXXXXXXXXXXXXXXXXXXXXX |
 | [Nethereum.Hex](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Hex) | [![NuGet version](https://badge.fury.io/nu/nethereum.hex.svg)](https://badge.fury.io/nu/nethereum.hex)| HexTypes for encoding and encoding String, BigInteger and different Hex helper functions|
 | [Nethereum.RPC](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.RPC)   | [![NuGet version](https://badge.fury.io/nu/nethereum.rpc.svg)](https://badge.fury.io/nu/nethereum.rpc) | Core RPC Class Library to interact via RCP with an Ethereum client |
 | [Nethereum.JsonRpc.Client](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.JsonRpc.Client)   | [![NuGet version](https://badge.fury.io/nu/nethereum.jsonrpc.client.svg)](https://badge.fury.io/nu/nethereum.jsonrpc.client) | Nethereum JsonRpc.Client core library to use in conjunction with either the JsonRpc.RpcClient, the JsonRpc.IpcClient or other custom Rpc provider |
@@ -77,8 +76,7 @@ PM > Install-Package Nethereum.Web3 -Pre
 | [Nethereum.IntegrationTesting](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.IntegrationTesting)  | [![NuGet version](https://badge.fury.io/nu/nethereum.IntegrationTesting.svg)](https://badge.fury.io/nu/nethereum.IntegrationTesting) | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
 | [Nethereum.HDWallet](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.HDWallet)  | [![NuGet version](https://badge.fury.io/nu/nethereum.HDWallet.svg)](https://badge.fury.io/nu/nethereum.HDWallet) | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
 
-
-## Smart contract api Libraries
+## Smart contract API Libraries
 
 |  Project Source | Nuget_Package |  Description |
 | ------------- |--------------------------|-----------|
@@ -87,11 +85,22 @@ PM > Install-Package Nethereum.Web3 -Pre
 | [Nethereum.Uport](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Uport)| [![NuGet version](https://badge.fury.io/nu/nethereum.uport.svg)](https://badge.fury.io/nu/nethereum.uport)| Uport registry library |
 | [Nethereum.ENS](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.ENS)| [![NuGet version](https://badge.fury.io/nu/nethereum.ens.svg)](https://badge.fury.io/nu/nethereum.ens)| Ethereum Name service library (original ENS) WIP to upgrade to latest ENS |
 
+## Utilities
+
+|  Project Source |  Description |
+| ------------- |--------------------------|-----------|
+| [Nethereum.Generator.Console](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Generator.Console) | -| XXXXXXXXXXXXXXXXXXXXXXXXXX |
+
+
 ## Training modules
 
-|  Project Source | Nuget_Package |  Description |
+|  Project Source |  Description |
 | ------------- |--------------------------|-----------|
-| [Nethereum.Workbooks](https://github.com/Nethereum/Nethereum.Workbooks) | [![NuGet version](https://badge.fury.io/nu/nethereum.Workbooks.svg)](https://badge.fury.io/nu/nethereum.Workbooks)| Tutorials including executable code |
-| [Nethereum.Tutorials](https://github.com/Nethereum/Nethereum.Tutorials) | [Module version](https://badge.fury.io/nu/nethereum.Tutorials.svg)](https://badge.fury.io/nu/nethereum.Tutorials)| Tutorials to run on VS Studio |
+| [Nethereum.Workbooks](https://github.com/Nethereum/Nethereum.Workbooks) |  - | Tutorials including executable code |
+| [Nethereum.Tutorials](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Tutorials) | [Module version](https://badge.fury.io/nu/nethereum.Tutorials.svg)](https://badge.fury.io/nu/nethereum.Tutorials)| Tutorials to run on VS Studio |
 
+## Code templates
 
+|  Source |  Description |
+| ------------- |--------------------------|-----------|
+[Sending Ether using Infura and a HD Wallet](https://github.com/Nethereum/Nethereum.Workbooks/blob/master/StandardToken.sol)| Send Ether using Infura and a HD Wallet| Create your first Token |
