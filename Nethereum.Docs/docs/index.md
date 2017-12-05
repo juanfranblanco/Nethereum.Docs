@@ -1,6 +1,6 @@
 # What is Nethereum ?
 
-Nethereum is the .Net integration library for Ethereum, simplifying the access and smart contract interaction with Ethereum nodes both public or permissioned like Geth, Parity or Quorum.
+Nethereum is the .Net integration library for Ethereum, simplifying the access and smart contract interaction with Ethereum nodes both public or permissioned like Geth, [Parity](https://www.parity.io/) or [Quorum](https://www.jpmorgan.com/global/Quorum).
 
 Nethereum is developed targeting netstandard 1.1, net451 and also as a portable library, hence it is compatible with all the operating systems (Windows, Linux, MacOS, Android and OSX) and has been tested on cloud, mobile, desktop, Xbox, hololens and windows IoT.
 
@@ -30,7 +30,8 @@ Nethereum provides two types of packages. Standalone packages targetting Netstan
 
 To install the latest version.
 
-####Windows users
+#### Windows users
+
  you can either:
 
 ```
@@ -41,11 +42,12 @@ or
 ```
 PM > Install-Package Nethereum.Web3 -Pre
 ```
-####Mac/Linux users
+#### Mac/Linux users
 
 ` dotnet add package Nethereum.Portable --version 2.0.1 `
 
 ## Main Libraries
+
 |  Project Source | Nuget_Package |  Description |
 | ------------- |--------------------------|-----------|
 | Nethereum.Portable    | [![NuGet version](https://badge.fury.io/nu/nethereum.portable.svg)](https://badge.fury.io/nu/nethereum.portable)| Portable class library combining all the different libraries in one package |
@@ -56,9 +58,11 @@ PM > Install-Package Nethereum.Web3 -Pre
 
 
 ## Core Libraries
+
 |  Project Source | Nuget_Package |  Description |
 | ------------- |--------------------------|-----------|
 | [Nethereum.ABI](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.ABI) | [![NuGet version](https://badge.fury.io/nu/nethereum.abi.svg)](https://badge.fury.io/nu/nethereum.abi)| Encoding and decoding of ABI Types, functions, events of Ethereum contracts |
+| [Nethereum.Generator.Console](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Generator.Console) | [![NuGet version](https://badge.fury.io/nu/Nethereum.Generator.Console.svg)](https://badge.fury.io/nu/Nethereum.Generator.Console.abi)| XXXXXXXXXXXXXXXXXXXXXXXXXX |
 | [Nethereum.EVM](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.EVM) | [![NuGet version](https://badge.fury.io/nu/nethereum.EVM.svg)](https://badge.fury.io/nu/nethereum.EVM)|Unity integration EVM XXXXXXXXXXXXXXXXXXXXXXXXXX |
 | [Nethereum.Hex](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Hex) | [![NuGet version](https://badge.fury.io/nu/nethereum.hex.svg)](https://badge.fury.io/nu/nethereum.hex)| HexTypes for encoding and encoding String, BigInteger and different Hex helper functions|
 | [Nethereum.RPC](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.RPC)   | [![NuGet version](https://badge.fury.io/nu/nethereum.rpc.svg)](https://badge.fury.io/nu/nethereum.rpc) | Core RPC Class Library to interact via RCP with an Ethereum client |
@@ -75,6 +79,7 @@ PM > Install-Package Nethereum.Web3 -Pre
 
 
 ## Smart contract api Libraries
+
 |  Project Source | Nuget_Package |  Description |
 | ------------- |--------------------------|-----------|
 | [Nethereum.unity](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Unity) | [![NuGet version](https://badge.fury.io/nu/nethereum.unity.svg)](https://badge.fury.io/nu/nethereum.unity)|Unity integration XXXXXXXXXXXXXXXXXXXXXXXXXX |
@@ -82,6 +87,11 @@ PM > Install-Package Nethereum.Web3 -Pre
 | [Nethereum.Uport](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Uport)| [![NuGet version](https://badge.fury.io/nu/nethereum.uport.svg)](https://badge.fury.io/nu/nethereum.uport)| Uport registry library |
 | [Nethereum.ENS](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.ENS)| [![NuGet version](https://badge.fury.io/nu/nethereum.ens.svg)](https://badge.fury.io/nu/nethereum.ens)| Ethereum Name service library (original ENS) WIP to upgrade to latest ENS |
 
+## Training modules
 
-Note: Named Pipe Windows is the only IPC api supported, this can only be used in combination with Nethereum.Web3 - Nethereum.RPC packages. Not the Nethereum.Portable package.
+|  Project Source | Nuget_Package |  Description |
+| ------------- |--------------------------|-----------|
+| [Nethereum.Workbooks](https://github.com/Nethereum/Nethereum.Workbooks) | [![NuGet version](https://badge.fury.io/nu/nethereum.Workbooks.svg)](https://badge.fury.io/nu/nethereum.Workbooks)| Tutorials including executable code |
+| [Nethereum.Tutorials](https://github.com/Nethereum/Nethereum.Tutorials) | [Module version](https://badge.fury.io/nu/nethereum.Tutorials.svg)](https://badge.fury.io/nu/nethereum.Tutorials)| Tutorials to run on VS Studio |
+
 
