@@ -1,12 +1,12 @@
-##Nethereum methods
+## Nethereum methods
 
-#####SendRequestAndWaitForReceiptAsyncv
+##### SendRequestAndWaitForReceiptAsyncv
 
 Sends a transaction in asynchronous mode, then returns the transaction receipt.
 
 Can be used to deploy contracts on the chain.
 
-######[See a live example](doc_path) in workbook format.
+###### [See a live example](doc_path) in workbook format.
 
 | Method | Description |Live Example |
 | ------ | ----------- | ----------- |
