@@ -13,7 +13,7 @@ Upcoming releases will include functionalities such as [DevP2P](https://github.c
 * [Parity](https://www.parity.io/) management API.
 * [Quorum](https://www.jpmorgan.com/global/Quorum) integration.
 * Simplified smart contract interaction for deployment, function calling, transaction and event filtering and decoding of topics.
-* [Unity](https://unity3d.com/) library XXXXXXXXXXXXXXXXXXXXXX
+* [Unity](https://unity3d.com/) Unity integration.
 * ABI to .Net type encoding and decoding, including attribute based for complex object deserialization.
 * Transaction, RLP and message signing, verification and recovery of accounts.
 * Libraries for standard contracts Token, [ENS](https://ens.domains/) and [Uport](https://www.uport.me/)
@@ -26,9 +26,9 @@ Upcoming releases will include functionalities such as [DevP2P](https://github.c
 
 ## Quick installation
 
-Nethereum provides two types of packages. Standalone packages targetting Netstandard 1.1, net451 and where possible net350 and the Nethereum.Portable library which combines all the packages into one as a portable library. As netstandard evolves and is more widely supported the portable library might be eventually deprecated, as it won't be longer needed.
+Nethereum provides two types of packages. Standalone packages targetting Netstandard 1.1, net451 and where possible net350 and the Nethereum.Portable library which combines all the packages into one as a portable library. As netstandard evolves and is more widely supported, the portable library might be eventually deprecated, as it won't be longer needed.
 
-To install the latest version.
+To install the latest version:
 
 #### Windows users
 
@@ -44,17 +44,20 @@ PM > Install-Package Nethereum.Web3 -Pre
 ```
 #### Mac/Linux users
 
-` dotnet add package Nethereum.Portable --version 2.0.1 `
+``` 
+dotnet add package Nethereum.Portable --version 2.0.1 
+```
 
 ## Main Libraries
 
 |  Project Source | Nuget_Package | Description |
 | ------------- |----------------|----------|-----------|
 | Nethereum.Portable    | [![NuGet version](https://badge.fury.io/nu/nethereum.portable.svg)](https://badge.fury.io/nu/nethereum.portable)| Portable class library combining all the different libraries in one package |
-| [Nethereum.Web3](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Web3)    | [![NuGet version](https://badge.fury.io/nu/nethereum.web3.svg)](https://badge.fury.io/nu/nethereum.web3)| Ethereum Web3 Class Library simplifying the interaction via RPC includes contract interaction, deployment, transaction, encoding / decoding and event filters |
+| [Nethereum.unity](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Unity) | [![NuGet version](https://badge.fury.io/nu/nethereum.unity.svg)](https://badge.fury.io/nu/nethereum.unity)|Unity integration |
+| [Nethereum.Web3](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Web3)    | [![NuGet version](https://badge.fury.io/nu/nethereum.web3.svg)](https://badge.fury.io/nu/nethereum.web3)| Ethereum Web3 Class Library simplifying the interaction via RPC. Includes contract interaction, deployment, transaction, encoding / decoding and event filters |
 | [Nethereum.Geth](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Geth)    | [![NuGet version](https://badge.fury.io/nu/nethereum.geth.svg)](https://badge.fury.io/nu/nethereum.geth)| Nethereum.Geth is the extended Web3 library for Geth. This includes the non-generic RPC API client methods to interact with the Go Ethereum Client (Geth) like Admin, Debug, Miner|
 | [Nethereum.Quorum](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Quorum)| [![NuGet version](https://badge.fury.io/nu/nethereum.quorum.svg)](https://badge.fury.io/nu/nethereum.quorum)| Extension to interact with Quorum, the permissioned implementation of Ethereum supporting data privacy created by JP Morgan|
-| [Nethereum.Parity](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Parity)| [![NuGet version](https://badge.fury.io/nu/nethereum.parity.svg)](https://badge.fury.io/nu/nethereum.parity)| Netherum.Parity is the extended Web3 library for Parity. including the non-generic RPC API client methods to interact with Parity. (WIP)|
+| [Nethereum.Parity](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Parity)| [![NuGet version](https://badge.fury.io/nu/nethereum.parity.svg)](https://badge.fury.io/nu/nethereum.parity)| Nethereum.Parity is the extended Web3 library for Parity. including the non-generic RPC API client methods to interact with Parity. (WIP)|
 
 
 ## Core Libraries
@@ -62,7 +65,7 @@ PM > Install-Package Nethereum.Web3 -Pre
 |  Project Source | Nuget_Package |  Description |
 | ------------- |--------------------------|-----------|
 | [Nethereum.ABI](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.ABI) | [![NuGet version](https://badge.fury.io/nu/nethereum.abi.svg)](https://badge.fury.io/nu/nethereum.abi)| Encoding and decoding of ABI Types, functions, events of Ethereum contracts |
-| [Nethereum.EVM](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.EVM) | -|Unity integration EVM XXXXXXXXXXXXXXXXXXXXXXXXXX |
+| [Nethereum.EVM](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.EVM) | -|Ethereum Virtual Machine API|
 | [Nethereum.Hex](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Hex) | [![NuGet version](https://badge.fury.io/nu/nethereum.hex.svg)](https://badge.fury.io/nu/nethereum.hex)| HexTypes for encoding and encoding String, BigInteger and different Hex helper functions|
 | [Nethereum.RPC](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.RPC)   | [![NuGet version](https://badge.fury.io/nu/nethereum.rpc.svg)](https://badge.fury.io/nu/nethereum.rpc) | Core RPC Class Library to interact via RCP with an Ethereum client |
 | [Nethereum.JsonRpc.Client](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.JsonRpc.Client)   | [![NuGet version](https://badge.fury.io/nu/nethereum.jsonrpc.client.svg)](https://badge.fury.io/nu/nethereum.jsonrpc.client) | Nethereum JsonRpc.Client core library to use in conjunction with either the JsonRpc.RpcClient, the JsonRpc.IpcClient or other custom Rpc provider |
@@ -73,14 +76,13 @@ PM > Install-Package Nethereum.Web3 -Pre
 | [Nethereum.KeyStore](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.KeyStore)  | [![NuGet version](https://badge.fury.io/nu/nethereum.keystore.svg)](https://badge.fury.io/nu/nethereum.keystore) | Keystore generation, encryption and decryption for Ethereum key files using the Web3 Secret Storage definition, https://github.com/ethereum/wiki/wiki/Web3-Secret-Storage-Definition |
 | [Nethereum.Signer](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Signer)  | [![NuGet version](https://badge.fury.io/nu/nethereum.signer.svg)](https://badge.fury.io/nu/nethereum.signer) | Nethereum signer library to sign and verify messages, RLP and transactions using an Ethereum account private key |
 | [Nethereum.Contracts](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Contracts)  | [![NuGet version](https://badge.fury.io/nu/nethereum.contracts.svg)](https://badge.fury.io/nu/nethereum.contracts) | Core library to interact via RPC with Smart contracts in Ethereum |
-| [Nethereum.IntegrationTesting](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.IntegrationTesting)  | [![NuGet version](https://badge.fury.io/nu/nethereum.IntegrationTesting.svg)](https://badge.fury.io/nu/nethereum.IntegrationTesting) | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| [Nethereum.HDWallet](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.HDWallet)  | [![NuGet version](https://badge.fury.io/nu/nethereum.HDWallet.svg)](https://badge.fury.io/nu/nethereum.HDWallet) | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
+| [Nethereum.IntegrationTesting](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.IntegrationTesting)  | [![NuGet version](https://badge.fury.io/nu/nethereum.IntegrationTesting.svg)](https://badge.fury.io/nu/nethereum.IntegrationTesting) | Integration testing module |
+| [Nethereum.HDWallet](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.HDWallet)  | [![NuGet version](https://badge.fury.io/nu/nethereum.HDWallet.svg)](https://badge.fury.io/nu/nethereum.HDWallet) | Generates an HD tree of Ethereum compatible addresses from a randomly generated word seeds (using BIP32 and BIP39) |
 
 ## Smart contract API Libraries
 
 |  Project Source | Nuget_Package |  Description |
-| ------------- |--------------------------|-----------|
-| [Nethereum.unity](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Unity) | [![NuGet version](https://badge.fury.io/nu/nethereum.unity.svg)](https://badge.fury.io/nu/nethereum.unity)|Unity integration XXXXXXXXXXXXXXXXXXXXXXXXXX |
+| ------------- |--------------------------|-----------
 | [Nethereum.StandardTokenEIP20](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.StandardTokenEIP20)| [![NuGet version](https://badge.fury.io/nu/nethereum.standardtokeneip20.svg)](https://badge.fury.io/nu/nethereum.nethereum.standardtokeneip20)| Nethereum.StandardTokenEIP20 Ethereum Service to interact with ERC20 compliant contracts |
 | [Nethereum.Uport](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Uport)| [![NuGet version](https://badge.fury.io/nu/nethereum.uport.svg)](https://badge.fury.io/nu/nethereum.uport)| Uport registry library |
 | [Nethereum.ENS](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.ENS)| [![NuGet version](https://badge.fury.io/nu/nethereum.ens.svg)](https://badge.fury.io/nu/nethereum.ens)| Ethereum Name service library (original ENS) WIP to upgrade to latest ENS |
@@ -88,19 +90,28 @@ PM > Install-Package Nethereum.Web3 -Pre
 ## Utilities
 
 |  Project Source |  Description |
-| ------------- |--------------------------|-----------|
-| [Nethereum.Generator.Console](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Generator.Console) | -| XXXXXXXXXXXXXXXXXXXXXXXXXX |
+| ------------- |--------------------------|
+| [Nethereum.Generator.Console](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Generator.Console) | - |
+| [Nethereum.Console](https://github.com/Nethereum/Nethereum.Console) | A collection of command line utilities to interact with Ethereum and account management |
+| [Nethereum.Console](https://github.com/Nethereum/Nethereum.Console) | A collection of command line utilities to interact with Ethereum and account management |
 
 
 ## Training modules
 
 |  Project Source |  Description |
-| ------------- |--------------------------|-----------|
-| [Nethereum.Workbooks](https://github.com/Nethereum/Nethereum.Workbooks) |  - | Tutorials including executable code |
-| [Nethereum.Tutorials](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Tutorials) | [Module version](https://badge.fury.io/nu/nethereum.Tutorials.svg)](https://badge.fury.io/nu/nethereum.Tutorials)| Tutorials to run on VS Studio |
+| ------------- |--------------------------|
+[Nethereum.Workbooks](https://github.com/Nethereum/Nethereum.Workbooks) | Tutorials including executable code | 
+[Nethereum.Tutorials](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Tutorials) | Tutorials to run on VS Studio |
+[Nethereum.Tutorials](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Tutorials) | Tutorials to run on VS Studio |
 
 ## Code templates
 
 |  Source |  Description |
 | ------------- |--------------------------|-----------|
-[Sending Ether using Infura and a HD Wallet](https://github.com/Nethereum/Nethereum.Workbooks/blob/master/StandardToken.sol)| Send Ether using Infura and a HD Wallet| Create your first Token |
+[Standard token](https://github.com/Nethereum/Nethereum.Workbooks/blob/master/StandardToken.sol)| Standard token |
+[Desktop app](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Desktop.Sample)| Desktop app template |
+[Keystore generator](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.KeyStore.Console.Sample)| Keystore file generator |
+[Faucet](https://github.com/Nethereum/Nethereum.Faucet)| Ether faucet |
+[Nethereum Flappy](https://github.com/Nethereum/Nethereum.Flappy)| A blockchain version of Flappy birds |
+
+ Note: IPC is supported for Windows, Unix and Linux but is only available using Nethereum.Web3
