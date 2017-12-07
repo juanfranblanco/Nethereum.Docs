@@ -93,15 +93,12 @@ dotnet add package Nethereum.Portable --version 2.0.1
 | ------------- |--------------------------|
 | [Nethereum.Generator.Console](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Generator.Console) |  |
 | [Nethereum.Console](https://github.com/Nethereum/Nethereum.Console) | A collection of command line utilities to interact with Ethereum and account management |
-| [Nethereum.Console](https://github.com/Nethereum/Nethereum.Console) | A collection of command line utilities to interact with Ethereum and account management |
-
 
 ## Training modules
 
 |  Project Source |  Description |
 | ------------- |--------------------------|
 [Nethereum.Workbooks](https://github.com/Nethereum/Nethereum.Workbooks) | Tutorials including executable code | 
-[Nethereum.Tutorials](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Tutorials) | Tutorials to run on VS Studio |
 [Nethereum.Tutorials](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Tutorials) | Tutorials to run on VS Studio |
 
 ## Code templates
