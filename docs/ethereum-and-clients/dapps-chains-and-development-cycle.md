@@ -1,5 +1,30 @@
 # Dapps, chains and development cycle
 
+## Local private tesnet
+When working in your local development environment, some of the options that we have chosen are the following, Geth Clique, Parity PoA and Ganache CLI. 
+
+### Geth
+Using Geth Clique you can test directly in Geth your integration with smart contracs in a fast Proof of Authority consensus.
+Link to the document.
+
+### Parity
+Using POA fast
+
+### Ganache-CLI
+If you are working on smart contracts,
+Truffle, test rpc replacement, all the beauty of truffle suite, testing smmart contracts, debugging etc.
+
+(We need a section for debugging, on parity, geth, and ganache it is much easier)
+
+## Cloud private testnet
+Azure BaaS, Blockchain as a Service, by using the Azure BaaS you can deploy a tesnet with several nodes, which the whole development team can collaborate. Link to document to setup
+
+### Public testnets
+Some general info on public testnets, and a link to the infura doc, but in the infura doc where possible some info on faucets.
+
+### Main net
+
+
 It is common practice to use different Ethereum-based blockchains (or emulators) along the development of a Dapp.
 
 The following is meant to be a quick intro on what Blockchains to use along the development cycle.
