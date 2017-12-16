@@ -4,33 +4,30 @@ When developing on Ethereum, different approaches are required depending on your
 
 ## Local private testnet
 
-When working in a local environment, the tools we recommend are ``` Geth Clique ```, ``` Parity PoA ``` and ``` Ganache CLI ```
+There are many ways to setup a tesnet locally, and different types of consensus to chose from. Currently the best way to work locally is to use ``` Geth using Proof of Authority "Clique" ```, ``` Parity Proof of Authority ``` and / or ``` Ganache CLI  (Old TestRpc)```
 
-### Geth Clique
+### Geth Proof of Authority (Clique)
 
-Using Geth Clique allows you to test your integration with smart contracts directly in Geth with a fast Proof of Authority consensus.
+Geth Clique allows you to test your integration with smart contracts directly in the Golang client Geth with a fast Proof of Authority consensus. The preconfigured single node we provide, provides near instant response with all the features of Geth.
 
 [Geth Clique Manual](geth.md)
 
-### Parity
+### Parity Proof of Authority
 
-Using Parity in combination with PoA consensus mechanism yields the same benefits as with Geth.
+Similar to Geth Clique, Parity Proof of Authority allows you to test your integration with smart contracts directly in the Rust client Parity with a fast Proof of Authority consensus. This is also preconfigured as a single node with near instant and all the features of Parity.
 
 [Parity Clique Manual](parity.md)
 
 ### Ganache-CLI
 
-``` Ganache CLI ``` (formerly ``` Test RPC ```) is a very common and well-documented chain emulator.
-
-Ganache inherits Truffle suite's benefits: mainly simplifying Smart Contracts testing, debugging and updating. Ganache has a quasi-immediate response time and great feedback cycle.
-It's great to deploy contracts and interact with them instantly at no GAS cost.
+``` Ganache CLI ``` (formerly ``` Test RPC ```) is a chain simulator part of the Truffle suite. The Truffle suite provides the development tools for Smart Contract unit testing, debugging and deployment.
 
 [Ganache official repo](https://github.com/trufflesuite/ganache-cli)
 
 ## Cloud private testnet
 
-Azure BaaS (Blockchain as a Service) allows you to deploy a testnet with several nodes and have a team work on the development.
-
+The Azure BaaS (Blockchain as a Service) allows you to deploy a testnet with several nodes and a generic team working environment.
+THIS NEED TO POINT TO OUR GUIDE OF HOW TO USE THE AZURE BAAS
 [Azure BaaS Documentation](https://azure.microsoft.com/en-us/solutions/blockchain/) 
 
 ## Public testnets
@@ -55,12 +52,14 @@ Cross-client testnet (working with both Parity and Geth) using PoA consensus mec
 
 #### 3. Ropsten
 
-Less popular since hacked early 2017, however, Ropsten is still in service.
+Less popular now, Ropsten is still in service.
 
 [Ropsten Github Repo](https://github.com/ethereum/ropsten)
 
+NOTE JUAN: This needs to link to our Infura document
 Note: public testnets can be accessed via public nodes such as [INFURA](https://www.infura.io) 
 
+For more info on public testnets check Karl Floersch [blog post](https://karl.tech/intro-guide-to-ethereum-testnets/)
 
 ## Ether Faucets
 
@@ -74,10 +73,8 @@ Here's a list of testnet Ether sources:
 |Ropsten|https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e|
 | Kovan | Kovan requires you to request KETH from another person|
 
-For more specific advice about faucets please check [this article.](https://medium.com/@juanfranblanco/netherum-faucet-and-nuget-templates-4a088f06933d)
+TODO Metamask faucet
 
+## Setting up your own Faucet
+If you require to setup your own Faucet for your testnet using Nethereum chek the [Nethereum.Faucet](https://github.com/Nethereum/Nethereum.Faucet) further explained in [this blog post](https://medium.com/@juanfranblanco/netherum-faucet-and-nuget-templates-4a088f06933d)
 
-
-
-
-**Credits**  to [Karl Floersch](https://karl.tech) for the technical part of this explanation: https://karl.tech/intro-guide-to-ethereum-testnets/
